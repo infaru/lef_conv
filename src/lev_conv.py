@@ -10,7 +10,7 @@ def isfloat(value):
 	except ValueError:
 		return False	
 
-with open('../../osu050/osu050_stdcells.lef') as osu:
+with open('../library/osu050/osu050_stdcells.lef') as osu:
 	for line in osu:
 		#print(line, end='')
 		tabins = line.replace('  ', ' TAB#  ')
